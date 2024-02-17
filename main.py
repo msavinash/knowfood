@@ -5,7 +5,7 @@
 # app = Flask(__name__)
 
 # os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "C:\\Users\\Public\\Documents\\Avinash\\Projects\\Points\\Point4\\knowfood-service-account-credentials.json"
-# os.environ["GOOGLE_API_KEY"] = "AIzaSyCUNORZp8K4A5dJFSI4NJxGLP7Nh3f2tqw"
+# os.environ["GOOGLE_API_KEY"] = ""
 
 
 # import google.generativeai as genai
@@ -78,7 +78,7 @@ app = Flask(__name__)
 
 # Set Google Cloud credentials
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "C:\\Users\\Public\\Documents\\Avinash\\Projects\\Points\\Point4\\knowfood-service-account-credentials.json"
-os.environ["GOOGLE_API_KEY"] = "AIzaSyCUNORZp8K4A5dJFSI4NJxGLP7Nh3f2tqw"
+os.environ["GOOGLE_API_KEY"] = ""
 
 # Configure generative AI
 genai.configure()
